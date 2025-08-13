@@ -196,10 +196,10 @@ with st.sidebar:
 
 col1, col2 = st.columns(2)
 with col1:
-    main_file = st.file_uploader("Main file: Data Availability Trend by Selected Dimensions (4).xlsx",
+    main_file = st.file_uploader("Main file: Data Availability Trend by Selected Dimensions",
                                  type=["xlsx"])
 with col2:
-    dq_file = st.file_uploader("DQ file: Data Quality by Carrier (3).xlsx (optional)", type=["xlsx"])
+    dq_file = st.file_uploader("Vlookup file: Data Quality by Carrier", type=["xlsx"])
 
 process = st.button("Process")
 
